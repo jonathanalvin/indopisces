@@ -1,0 +1,68 @@
+.mCont{
+    margin-top: 20px;
+    border: 1px solid black;
+    
+}
+
+.mHdr{
+    padding-top: 1em;
+}
+
+.mLand{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.wcpanel{
+	background-color: #11FF19;
+	min-height: 100px;
+}
+
+.topMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topMenu li{
+    display: inline-block;
+}
+
+.topMenu li a{
+    text-decoration: none;
+    padding: .2en 1em;
+}
+
+
+.carrImage{
+    width: 100%;
+    display: inline-block;
+    min-height: 18em;
+    border: 1px dashed #666; /*debug*/
+}
+
+.mainBox{
+    min-height: 6em;
+    border: 1px dashed #666;
+    padding: 2em;
+    text-align: center;
+}
+
+.footer{
+    background-color: #666666;
+    color: #FFF;
+    font-size: .7em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+}
+
+.copyRight{
+    text-align: center;
+    padding-top: .9em;
+    font-size: .68em;
+}
+
+
+@media(min-width:@screen-xs-max){
+
+}
